@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Galena Blog"
-email: youremail@domain.com
-author: agigante80
+# title: "Galena Blog"
+# email: youremail@domain.com
+# author: agigante80
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,7 +40,7 @@ author: agigante80
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+# copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Galena Blog, your go-to destination for in-depth insights into the fascinating world of minerals, mining, gemstones, and jewelry. 
