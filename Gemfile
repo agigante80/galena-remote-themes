@@ -12,4 +12,5 @@ gem 'sassc', '2.4.0'
 gem 'rexml', '3.4.1'
 gem 'ffi', '1.17.1'
 gem "jekyll-feed", '0.12'
+gem "jekyll-seo-tag"
 gem "jekyll-remote-theme", group: :jekyll_plugins
