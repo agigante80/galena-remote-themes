@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: bundle install
       
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+      
       - name: Commit Gemfile.lock
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -51,13 +54,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
-      # Build the Jekyll site
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      
+     
       # Upload the built site as an artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
